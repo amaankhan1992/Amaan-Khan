@@ -8,8 +8,8 @@
 2.2.1 Java Setup
 2.2.2 Maven Setup
 2.2.3 Eclipse Setup
-2.2.3.1 JRE Settings
-2.2.4 TestNG Setup
+2.2.4 JRE Settings
+2.2.5 TestNG Setup
 2.3. Setup
 3.Overview
 4. List of Dependencies
