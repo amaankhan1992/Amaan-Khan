@@ -153,7 +153,7 @@ Before running the tests please ensure
 2. Android Emulator Device is up
 	- Open comman promt
 	- cd C:\Users\{user.dir}\AppData\Local\Android\Sdk\emulator e.g. [cd C:\Users\amaankhan\AppData\Local\Android\Sdk\emulator]
-	- cd emulator -{devicename} e.g. cd {emulator -avd Pixel_5_API_30}
+	- cd emulator -{devicename} e.g. [cd emulator -avd Pixel_5_API_30]
 The reports, screenshots can be viewed in the path configured in src/main/resources/configuration.properties file
 Default path is C:\monefy for reports and screenshots
 
