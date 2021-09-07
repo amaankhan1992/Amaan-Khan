@@ -144,8 +144,20 @@ The project follows Page Object Model for automation. The structure of the proje
 +---testng.xml						#TestNg Suite
 
 Once the project is setup, tests can be run from testng file->Right Click->Run as TestnG Tests
+
+Before running the tests please ensure
+1. Appium server is running to do this :
+	- Open command prompt
+	- Type appium, enter
+2. Create an android device in the Android Studio 
+2. Android Emulator Device is up
+	- Open comman promt
+	- cd C:\Users\{user.dir}\AppData\Local\Android\Sdk\emulator e.g. [cd C:\Users\amaankhan\AppData\Local\Android\Sdk\emulator]
+	- cd emulator -{devicename} e.g. cd {emulator -avd Pixel_5_API_30}
 The reports, screenshots can be viewed in the path configured in src/main/resources/configuration.properties file
 Default path is C:\monefy for reports and screenshots
+
+
 
 ## 4. List of Dependencies and Licenses
 1. Appium 			| 7.0.0 | 
