@@ -1,0 +1,35 @@
+22:11:03.502 [main] INFO  monefy_utils.PropertyUtils - Loading properties from configuration.properties
+22:11:03.531 [main] INFO  monefy_utils.PropertyUtils - java.io.BufferedInputStream@445b295b
+22:11:03.532 [main] INFO  monefy_utils.PropertyUtils - File loaded from : java.io.BufferedInputStream@445b295b
+22:11:03.533 [main] INFO  monefy_utils.PropertyUtils - CLosing filejava.io.BufferedInputStream@445b295b
+22:11:03.740 [main] INFO  monefy_utils.TestDataProvider - Reading test data from : src/test/resources/TestData.xlsx
+22:11:05.834 [main] INFO  monefy_utils.TestDataProvider - Test Data loaded for  : [createExpense] as [createExpense, 123456789, TestNote, Car]
+22:11:05.841 [main] INFO  monefy_utils.TestDataProvider - Removing testname from test data and copying to new data object
+22:11:05.842 [main] INFO  monefy_utils.TestDataProvider - Passing [[Ljava.lang.Object;@576f63f6] to test -createExpense
+22:11:05.859 [main] INFO  monefy_tests.Testbase - Setting up appium
+22:11:05.861 [main] INFO  monefy_tests.Testbase - Setting Desired Capabilities for the driver.
+22:11:05.862 [main] INFO  monefy_tests.Testbase - Setting Capabilities as Android, 11.0, com.monefy.app.lite_2021-08-21.apk, D:\EclipseWorkspace\monefy\src\main\resources\com.monefy.app.lite_2021-08-21.apk, Pixel_5_API_30, null, false, false
+22:11:43.030 [main] INFO  monefy_tests.Testbase - Driver Started
+22:11:43.617 [main] INFO  monefy_pageobjects.BasePageObjects - Page factory Elements initialised successfully
+22:11:43.745 [main] INFO  monefy_pageobjects.BasePageObjects - Page factory Elements initialised successfully
+22:11:44.375 [main] INFO  monefy_pageobjects.ExpenseHomeScreenPO - Located by By.chained({By.id: com.monefy.app.lite:id/expense_button_title})Clicked successfully
+22:11:44.381 [main] INFO  monefy_pageobjects.ExpenseHomeScreenPO - Setting amount as 123456789
+22:11:48.230 [main] INFO  monefy_utils.ScreenshotUtil - Saving Screenshot to : TestCases.createExpense - 07-Sep-2021__10_11_48PM.png
+22:11:48.259 [main] INFO  monefy_utils.ScreenshotUtil - Screenshot captured for Failure
+22:11:48.261 [main] INFO  monefy_tests.Testbase - Test Case: [monefy_tests.TestCases_createExpense] executed..!
+22:11:48.262 [main] INFO  monefy_utils.TestDataProvider - Reading test data from : src/test/resources/TestData.xlsx
+22:11:48.341 [main] INFO  monefy_utils.TestDataProvider - Test Data loaded for  : [createIncome] as [createIncome, 55009.45, TestNote, Salary]
+22:11:48.342 [main] INFO  monefy_utils.TestDataProvider - Removing testname from test data and copying to new data object
+22:11:48.342 [main] INFO  monefy_utils.TestDataProvider - Passing [[Ljava.lang.Object;@3a60c416] to test -createIncome
+22:11:48.343 [main] INFO  monefy_tests.Testbase - Setting up appium
+22:11:48.348 [main] INFO  monefy_tests.Testbase - Setting Desired Capabilities for the driver.
+22:11:48.348 [main] INFO  monefy_tests.Testbase - Setting Capabilities as Android, 11.0, com.monefy.app.lite_2021-08-21.apk, D:\EclipseWorkspace\monefy\src\main\resources\com.monefy.app.lite_2021-08-21.apk, Pixel_5_API_30, null, false, false
+22:12:10.341 [main] INFO  monefy_tests.Testbase - Driver Started
+22:12:10.477 [main] INFO  monefy_pageobjects.BasePageObjects - Page factory Elements initialised successfully
+22:12:10.627 [main] INFO  monefy_pageobjects.BasePageObjects - Page factory Elements initialised successfully
+22:12:11.600 [main] INFO  monefy_pageobjects.ExpenseHomeScreenPO - Located by By.chained({By.id: com.monefy.app.lite:id/income_button_title})Clicked successfully
+22:12:11.601 [main] INFO  monefy_pageobjects.ExpenseHomeScreenPO - Setting amount as 55009.45
+22:12:14.236 [main] INFO  monefy_utils.ScreenshotUtil - Saving Screenshot to : TestCases.createIncome - 07-Sep-2021__10_12_14PM.png
+22:12:14.245 [main] INFO  monefy_utils.ScreenshotUtil - Screenshot captured for Failure
+22:12:14.250 [main] INFO  monefy_tests.Testbase - Test Case: [monefy_tests.TestCases_createIncome] executed..!
+22:12:15.575 [main] INFO  monefy_tests.Testbase - Driver Closed
